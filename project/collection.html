@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+<!-- my css-->
+    <link rel="stylesheet" href="style.css">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <nav class="navbar">
+    <h1>Nostra</h1>
+    <div class="navbar-links">
+        <p class="navbar-links"><a href="index.html">Home</a></p>
+        <p class="navbar-links"><a href="collection.html">Collection</a></p>
+        <p class="navbar-links"><a href="contact.html">Contact</a></p>
+
+    </div>
+    <div class="navbar-menu-toggle">
+        <i class="fa-solid fa-bars" onclick="show()"></i>
+    </div>
+   </nav>
+   <!--side navbar-->
+   <div class="side-navbar">
+    <p style="text-align:right;">
+        <i class="fa-solid fa-xmark" onclick="hide()"></i>
+    </p>
+    <div class="side-navbar-links">
+        <p class="side-navbar-links"><a href="">Home</a></p>
+        <p class="side-navbar-links"><a href="">Collection</a></p>
+        <p class="side-navbar-links"><a href="">Contact</a></p>
+        <p class="side-navbar-links"><a href="">About us</a></p>
+
+    </div>
+   </div>
+
+
+
+   <!--product-->
+   <div class="product-section">
+     <form class="product-search">
+      <input type="text" id="search" placeholder="search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+     </form>
+     <div class="products" id="products">
+        <div class="product-box">
+           <img style="width:200px;height:200px;"class="header-img" src="Itachi_Uchiha.webp">
+           <p>shirts</p>
+        </div>
+        <div class="product-box">
+            <img style="width:200px;height:200px;"class="header-img" src="Itachi_Uchiha.webp">
+            <p>t-shirts</p>
+         </div>
+         <div class="product-box">
+            <img style="width:200px;height:200px;"class="header-img" src="Itachi_Uchiha.webp">
+            <p>pant</p>
+         </div>
+         <div class="product-box">
+            <img style="width:200px;height:200px;"class="header-img" src="Itachi_Uchiha.webp">
+            <p>sleavess</p>
+         </div>
+     </div>
+    </div>
+ 
+  
+   
+      
+    
+    
+    
+      <!--footer-->
+      <div class="footer">
+        <div class="footer-constainer">
+            <div class="footer-box-1">
+                <h2 class="heading">Nostra</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aspernatur velit recusandae voluptatum quia soluta.</p>
+                <div class="footer-item-icon">
+                     <a class="fa-brands fa-instagram" style="color:#fff" href="https://www.instagram.com/"></a>
+                    <a class="fa-brands fa-facebook" style="color:#fff" href="https://www.facebook.com/"></a>
+                    <a class="fa-brands fa-twitter" style="color:#fff" href="https://x.com/"></a>
+                   
+                </div>
+                <p>@nostra123.com</p>
+            </div>
+        </div>
+      </div>
+   <!--js link-->
+   <script src="collection.js"></script>
+</body>
+</html>
